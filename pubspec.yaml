@@ -1,0 +1,24 @@
+name: your_project_name
+description: A description of your project
+
+# Version of your project
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+# The following section is for dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.0.2+1
+  file_picker: ^6.2.0
+  path: ^1.8.0
+
+# The following section is specific to Flutter packages
+# Flutter packages contain Flutter-specific code
+# You can ignore this section if you're not using Flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# Other configurations for your project can go here
